@@ -16,7 +16,7 @@ function getUserInfo() {
     method: 'GET',
     url: '/my/userinfo',
     success: function (res) {
-      console.log(res)
+      // console.log(res)
       if (res.status !== 0) return layer.msg(res.message)
       // 动态渲染头像的步骤封装在一个函数方法内
       renderAvatar(res.data)

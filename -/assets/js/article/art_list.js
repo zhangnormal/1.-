@@ -111,4 +111,9 @@ $(function() {
       }
     })
   })
+  $('tbody').on('click','#btnEdit',function() {
+    var id = $(this).attr('data-id')
+    // console.log(id);
+    location.href = '/article/art_edit.html'+'?'+id
+  })
 })
