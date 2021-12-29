@@ -4,6 +4,7 @@ html,body {
 }
 body {
   padding: 15px;
+  background-color: #f2f3f5;
 }
 /* 封面容器的样式 */
 .cover-box {
